@@ -8,7 +8,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
 ### Task 2: Minimum Viable Product
 
-Design the **data model** for a _recipe book_ application and use Knex migrations and seeding functionality to build a **SQLite database** based on the model and seed it with test data. Then, build an **endpoint** to fetch a recipe by its id.
+[x] Design the **data model** for a _recipe book_ application and use Knex migrations and seeding functionality to build a **SQLite database** based on the model and seed it with test data. Then, build an **endpoint** to fetch a recipe by its id.
 
 The requirements for the system as stated by the client are:
 
@@ -55,7 +55,7 @@ The JSON representation above is the result of querying data from several tables
 
 Note that it's unlikely all the fields `{ "ingredient_id": 27, "ingredient_name": "olive oil", "quantity": 0.014 }` come from the same table. Otherwise an ingredient could only ever be used in a fixed quantity!
 
-Before writing any code, write out all desired tables in the data model and determine the relationships between tables.
+[x] Before writing any code, write out all desired tables in the data model and determine the relationships between tables.
 
 **Try to keep your design to FOUR tables**. With three tables it will be hard to meet all requirements, and more than 5 is likely overkill.
 
@@ -65,8 +65,8 @@ Before writing any code, write out all desired tables in the data model and dete
 
 #### Migrations and Seeds
 
--   Write a migration file that creates all tables necessary to model this data
--   Write seed files to populate the tables with test data. **Hint**: Keep your recipes simple or this step could become extremely time consuming.
+-   [x] Write a migration file that creates all tables necessary to model this data
+-   [x] Write seed files to populate the tables with test data. **Hint**: Keep your recipes simple or this step could become extremely time consuming.
 
 #### Data Access
 
