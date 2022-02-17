@@ -5,7 +5,7 @@ const recipesRouter = require('./recipes-router');
 // Server
 const server = express();
 server.use(express.json());
-server.use('/api', recipesRouter);
+server.use('/api/recipes', recipesRouter);
 
 // Exports
 module.exports = server;
