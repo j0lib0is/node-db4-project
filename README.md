@@ -70,16 +70,16 @@ Note that it's unlikely all the fields `{ "ingredient_id": 27, "ingredient_name"
 
 #### Data Access
 
-Write a data access file that exports an object with the following function:
+[x] Write a data access file that exports an object with the following function:
 
 -   `getRecipeById(recipe_id)`
-    -   Should resolve a representation of the recipe similar to the one shown in the **Data Model** above.
-    -   The function will pull information from several tables using Knex and then create a response object using loops, objects, array methods etc.
-    -   There are many ways to solve this, but from a performance standpoint the fewer trips to the database the better!
+    -   [x] Should resolve a representation of the recipe similar to the one shown in the **Data Model** above.
+    -   [x] The function will pull information from several tables using Knex and then create a response object using loops, objects, array methods etc.
+    -   [x] There are many ways to solve this, but from a performance standpoint the fewer trips to the database the better!
 
 #### Endpoint
 
-Write an endpoint to fetch a recipe by its id, using the `getRecipeById(recipe_id)` function.
+[x] Write an endpoint to fetch a recipe by its id, using the `getRecipeById(recipe_id)` function.
 
 ### Task 3: Stretch Goals
 
